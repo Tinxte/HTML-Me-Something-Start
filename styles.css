@@ -1,1 +1,102 @@
-/* Write your CSS here! */
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#header-content {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid;
+    background: #151d77;
+}
+
+header {
+    margin: 0px auto;
+    width: 600px;
+}
+
+main {
+    width: 600px;
+    margin: 20rem auto 50px;
+}
+
+#mainHeading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #8890e8;
+    font-size: 2.3rem;
+    /* margin: 0px auto 1rem; */
+}
+
+h3 {
+    color: #151d77;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    color: #8890e8;
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+}
+
+a:link {
+    font-family: Montserrat;
+    color: #8890e8;
+}
+
+a:hover {
+    font-family: Montserrat;
+    color: white;
+}
+
+a:visited {
+    font-family: Monstserrat;
+    color: #2939e8;
+    /* color: black; */
+}
+
+article {
+    box-shadow: 10px 8px 10px 5px #8890e8;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+#portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 50%;
+    
+}
+
+.paragraph-inverted {
+    color: white;
+}
+
+.content {
+    margin: 5rem 50px;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    /* width: 600px; */
+    padding: 2rem;
+}
+
+footer {
+    background: #151d77;
+    height: 150px;
+    /* padding: 2rem; */
+    text-align: center;
+}
